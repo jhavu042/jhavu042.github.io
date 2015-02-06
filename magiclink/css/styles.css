@@ -1,0 +1,37 @@
+body {
+    background-color:#CCFF66;
+    font-size: 18px;
+    font-family: "Times New Roman", Helvetica, Arial, sans-serif;
+
+}
+
+p {
+    color: red;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.two {
+    color: orange;
+    font-size: 18px;
+    font-size: 48px;
+}
+
+a{ 
+    color: red;
+    text-decoration:none;
+}
+
+#myid {
+    color: black;
+    font-size: 40px;
+}
+
+.divone {
+    background-color: blue;
+}
+
+.divtwo {
+    background-color: red;
+    
+}
