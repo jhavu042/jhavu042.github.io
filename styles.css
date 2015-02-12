@@ -1,7 +1,7 @@
 body {
     background-color:black;
     font-family: helvetica, sans-serif;
-    color:#660099;
+    color:#FF0033;
      margin: 0 auto;
     
 } 
@@ -13,13 +13,13 @@ a {
 }
 
 p1 {
-     color: green;
       margin: 0 auto;
 }
 
 p2 {
-    color:#FF0033;
+    color:#FF9933;
      margin: 0 auto;
+     font-size: 30px;
     
 }
 
@@ -38,3 +38,8 @@ h1 {
     
 }
 
+
+a:hover {
+    text-decoration: underline;
+    color: #FFFF33;
+ }
