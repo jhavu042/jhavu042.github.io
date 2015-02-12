@@ -1,15 +1,32 @@
 body {
     background-color:#CC66FF;
     font-family: helvetica, sans-serif;
-   
+    color:#660099;
+    
 } 
 
 a {
     text-decoration: none;
-    font: white;
+    color: white;
 }
 
 p1 {
-     font: green;
+     color: green;
 }
 
+p2 {
+    color:#660099;
+    
+}
+
+p3 {
+    color:#FFFFFF;
+    font: helvetica, sans-serif;
+}
+
+h1 {
+    color:#660099;
+    font-size:40px;
+    text-decoration: underline;
+    font-weight:medium;
+}

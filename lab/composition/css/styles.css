@@ -1,0 +1,16 @@
+body {
+    font: white;
+    background-color:#FF6666;
+    font-family: helvetica, sans-serif;
+    
+}
+p1 {
+    color: #FFFFFF;
+    font-family: helvetica, sans-serif;
+    font-size:18px;
+    font-weight: medium;
+}
+
+p2 {
+    font-size: 30px;
+}
