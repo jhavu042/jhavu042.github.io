@@ -1,34 +1,40 @@
 body {
-    background-color:#CC66FF;
+    background-color:black;
     font-family: helvetica, sans-serif;
     color:#660099;
+     margin: 0 auto;
     
 } 
 
 a {
     text-decoration: none;
     color: white;
+     margin: 0 auto;
 }
 
 p1 {
      color: green;
+      margin: 0 auto;
 }
 
 p2 {
-    color:#660099;
+    color:#FF0033;
+     margin: 0 auto;
     
 }
 
 p3 {
     color:#FFFFFF;
     font: helvetica, sans-serif;
+     margin: 0 auto;
 }
 
 h1 {
-    color:#660099;
-    font-size:70px;
+    color:#FF0000;
+    font-size:170px;
     font-weight:medium;
-    
+     margin: 0 auto;
+     background-color:;
     
 }
 
