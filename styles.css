@@ -1,5 +1,15 @@
 body {
-    background-color:#FF9966;
-    font-family: helvetica;
-    font: black;
+    background-color:#CC66FF;
+    font-family: helvetica, sans-serif;
+   
 } 
+
+a {
+    text-decoration: none;
+    font: white;
+}
+
+p1 {
+     font: green;
+}
+
