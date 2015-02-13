@@ -2,7 +2,7 @@ body {
     background-color:black;
     font-family: helvetica, sans-serif;
     color:#FF0033;
-     margin: 0 auto;
+    margin: 0 auto;
     
 } 
 
@@ -32,7 +32,7 @@ p3 {
 h1 {
     color:#FF0000;
     font-size:170px;
-    font-weight:medium;
+    font-weight:lighter;
      margin: 0 auto;
      background-color:;
     
