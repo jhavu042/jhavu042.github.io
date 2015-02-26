@@ -23,6 +23,7 @@ p2 {
     
 }
 
+
 p3 {
     color:#FFFFFF;
     font: helvetica, sans-serif;
@@ -38,8 +39,8 @@ h1 {
     
 }
 
-
-p:hover {
+p1:hover {
     text-decoration: underline;
-    color: #FFFF33;
+    
  }
+ 
