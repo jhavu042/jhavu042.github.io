@@ -9,10 +9,12 @@
     <body>
         
         
-        <div class="box2">Arms</div>
+        <div class="box2">Put your hand up</div>
         <div class="box4">Step 1 of 4</div>
-        <div class="box3"><br>Depending on your height, put your hands on step 4-6, while keeping your feet flat at the base of the stairs.<br>
-       --> In this position, do push ups.</div>
+        <div class="box3"><br> Put your hands on step 4-6 and do push ups.</div>
+        <div class="box5">
+          <div id="countdown"></div>
+        </div>
         
   <script>
       
@@ -45,14 +47,14 @@
 }
 
 var myCounter = new Countdown({  
-    seconds: 180,  // number of seconds to count down
+    seconds: 5,  // number of seconds to count down
     onUpdateStatus: function(sec){
         console.log(sec);
         document.getElementById("countdown").innerHTML = sec;
     }, // callback for each second
     onCounterEnd: function(){ 
         //alert('counter ended!');
-         location.href = "midpagearms1";
+         location.href = "midpagearms1.html";
     } // final action
 });
 
@@ -60,4 +62,4 @@ myCounter.start();
 
   </script>
     </body>
-    </html>
+</html>
