@@ -36,7 +36,7 @@
 
   this.start = function () {
     clearInterval(timer);
-    timer = 0;
+    timer = 10;
     seconds = options.seconds;
     timer = setInterval(decrementCounter, 1000);
   };
@@ -47,7 +47,7 @@
 }
 
 var myCounter = new Countdown({  
-    seconds:5,  // number of seconds to count down
+    seconds: 180,  // number of seconds to count down
     onUpdateStatus: function(sec){
         console.log(sec);
         document.getElementById("countdown").innerHTML = sec;
