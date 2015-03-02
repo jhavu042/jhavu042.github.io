@@ -1,3 +1,6 @@
+body {
+    background:black;
+}
 .all {
     text-align:center;
     text-decoration: none;
@@ -7,17 +10,24 @@
     font-weight:lighter;
     color: black;
     font-size:38px;
+    margin-left: 30%;
+    margin-top:15%;
     
 }
 .back {
-    background-color: #6633FF;
+    background-color: white;
     padding: 0px 30 0px 30;
     margin: 100 auto 30 auto;
     /*position: absolute;*/
 }
 
+a:hover{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
 .repeat {
-    background-color: #6633FF;
+    background-color: white;
     padding: 0px 30 0px 30;
 
     margin: 30 auto;
@@ -26,13 +36,8 @@
 }
 
 .next {
-    background-color: #6633FF;
+    background-color: white;
     padding: 0px 30 0px 30;
     margin: 30 auto;
     /*position: absolute;*/
-}
-
-a:hover {
-    font-weight: bold;
-    
 }
