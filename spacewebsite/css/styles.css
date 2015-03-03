@@ -86,3 +86,13 @@ a:hover {
     font-size:38px;
     height: 20%;
 }
+
+.shake {
+	display:block;
+	position:relative;
+}
+
+a.shake,
+.shake.inline {
+	display:inline-block
+}
