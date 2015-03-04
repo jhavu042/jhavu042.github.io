@@ -6,6 +6,8 @@
         </head>
        
         <link href="css/arms1.css" rel="stylesheet" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
     <body>
         
         
@@ -14,9 +16,18 @@
         <div class="box3"><br> Put your hands on step 4-6 and do push ups.</div>
         <div class="box5">
           <div id="countdown"></div>
-        </div>
+
         
+      <div class="start">Start</div>
+
+<p id="countdown"></p>
+</div>
+
   <script>
+  
+  // function myFunction() {
+  //   document.getElementById("countdown").innerHTML = "GO!";
+
       
       function Countdown(options) {
   var timer,
@@ -47,7 +58,7 @@
 }
 
 var myCounter = new Countdown({  
-    seconds: 5,  // number of seconds to count down
+    seconds: 15,  // number of seconds to count down
     onUpdateStatus: function(sec){
         console.log(sec);
         document.getElementById("countdown").innerHTML = sec;
@@ -58,7 +69,12 @@ var myCounter = new Countdown({
     } // final action
 });
 
-myCounter.start();
+$('.start').click(function() {
+  alert('hi')
+  myCounter.start();
+  $(this).hide();
+});
+
 
   </script>
     </body>
