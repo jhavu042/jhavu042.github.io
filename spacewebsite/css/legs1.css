@@ -18,6 +18,7 @@ a { text-decoration: none; }
     font-family: helvetica, sans-serif;
     font-weight:bold;
     font-size:38px;
+    padding-top: 32px;
     
 }
 .start {
@@ -45,6 +46,7 @@ a { text-decoration: none; }
     font-family: helvetica, sans-serif;
     font-weight:lighter;
     font-size:18px;
+    padding-top: 30px;
 }
 
 .box3 {
