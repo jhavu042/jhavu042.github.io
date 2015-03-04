@@ -33,6 +33,21 @@ a { text-decoration: none; }
     font-size:18px;
     padding-top:40px;
 }
+.start {
+    text-align: center;
+    font-size: 30px;
+    font-family: helvetica, sans-serif;
+    cursor: hand;
+    color: white;
+}
+
+#countdown {
+    color: white;
+    font-size: 200px;
+    font-family: monospace;
+    text-align: center;
+    padding-top: 6%;
+}
 
 .box3 {
     background-color: #CC00FF;

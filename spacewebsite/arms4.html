@@ -6,6 +6,8 @@
         </head>
        
         <link href="css/arms4.css" rel="stylesheet" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        
     <body>
         
         
@@ -15,7 +17,11 @@
         </div>
         <div class="box5">
           <div id="countdown"></div>
-        </div>
+
+        
+      <div class="start"> Start </div>
+
+<p id="countdown"></p>
        
         <script>
       
@@ -48,7 +54,7 @@
     }
     
     var myCounter = new Countdown({  
-        seconds: 5,  // number of seconds to count down
+        seconds: 240,  // number of seconds to count down
         onUpdateStatus: function(sec){
             console.log(sec);
             document.getElementById("countdown").innerHTML = sec;
@@ -59,8 +65,10 @@
         } // final action
     });
     
-    myCounter.start();
-
+    $('.start').click(function() {
+  myCounter.start();
+  $(this).hide();
+});
    </script>
          </body>
     </html>

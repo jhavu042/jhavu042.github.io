@@ -6,6 +6,8 @@
         </head>
        
         <link href="css/bottom4.css" rel="stylesheet" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        
     <body>
         
         
@@ -13,9 +15,12 @@
         <div class="box4">Step 4 of 4</div>
         <div class="box3"><br> 
          Do squats with your hands stretched out in front of you </div>
-          <div class="box5">
-           <div id="countdown"></div>
-       </div>
+          <div id="countdown"></div>
+
+        
+      <div class="start"> Start </div>
+
+<p id="countdown"></p>
        <script>
       
           function Countdown(options) {
@@ -58,7 +63,11 @@
         } // final action
     });
     
-    myCounter.start();
+    
+     $('.start').click(function() {
+  myCounter.start();
+  $(this).hide();
+});
 
   </script>
     </body>

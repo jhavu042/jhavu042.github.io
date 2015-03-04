@@ -6,6 +6,8 @@
         </head>
        
         <link href="css/abs1.css" rel="stylesheet" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        
     <body>
         
         
@@ -13,9 +15,15 @@
         <div class="box4">Step 1 of 4</div>
         <div class="box3"><br>Walk up and down the stairs, with your hands stretched out directly in front of you without moving them at all.<br>
        --> Hands should be perpendicular to your body</div>
+          
           <div class="box5">
-           <div id="countdown"></div>
-       </div>
+          <div id="countdown"></div>
+
+        
+      <div class="start"> Start </div>
+
+<p id="countdown"></p>
+       
        <script>
       
           function Countdown(options) {
@@ -54,11 +62,16 @@
         }, // callback for each second
         onCounterEnd: function(){ 
             //alert('counter ended!');
-             location.href = "midpagearms2.html";
+             location.href = "midpageabs1.html";
         } // final action
     });
     
-    myCounter.start();
+   
+
+$('.start').click(function() {
+  myCounter.start();
+  $(this).hide();
+});
 
   </script>
        

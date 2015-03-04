@@ -6,6 +6,8 @@
         </head>
        
         <link href="css/abs3.css" rel="stylesheet" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        
     <body>
         
         
@@ -15,9 +17,14 @@
         <br>
         --> Do Sit ups that go lower than 180 degrees.
         </div>
-          <div class="box5">
-           <div id="countdown"></div>
-       </div>
+         <div class="box5">
+          <div id="countdown"></div>
+
+        
+      <div class="start"> Start </div>
+
+<p id="countdown"></p>
+
        <script>
       
           function Countdown(options) {
@@ -60,7 +67,11 @@
         } // final action
     });
     
-    myCounter.start();
+    $('.start').click(function() {
+  myCounter.start();
+  $(this).hide();
+});
+
 
   </script>
        

@@ -6,6 +6,8 @@
         </head>
        
         <link href="css/cardio1.css" rel="stylesheet" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        
     <body>
         
         
@@ -14,7 +16,11 @@
         <div class="box3"><br> Sprint up and down the stairs sideways, 2 steps at a time</div>
         <div class="box5">
           <div id="countdown"></div>
-        </div>
+
+        
+      <div class="start"> Start </div>
+
+<p id="countdown"></p>
         
   <script>
       
@@ -58,7 +64,10 @@ var myCounter = new Countdown({
     } // final action
 });
 
-myCounter.start();
+$('.start').click(function() {
+  myCounter.start();
+  $(this).hide();
+});
 
   </script>
     </body>

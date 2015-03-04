@@ -6,6 +6,7 @@
         </head>
        
         <link href="css/bottom2.css" rel="stylesheet" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     
     <body>
         
@@ -15,8 +16,13 @@
         <div class="box3"><br> Do lunges on the stairs 
         </div>
        <div class="box5">
-           <div id="countdown"></div>
-       </div>
+          <div id="countdown"></div>
+
+        
+      <div class="start"> Start </div>
+
+<p id="countdown"></p>
+
        <script>
       
           function Countdown(options) {
@@ -48,7 +54,7 @@
     }
     
     var myCounter = new Countdown({  
-        seconds: 180,  // number of seconds to count down
+        seconds: 0,  // number of seconds to count down
         onUpdateStatus: function(sec){
             console.log(sec);
             document.getElementById("countdown").innerHTML = sec;
@@ -59,7 +65,10 @@
         } // final action
     });
     
-    myCounter.start();
+     $('.start').click(function() {
+  myCounter.start();
+  $(this).hide();
+});
 
   </script>
     </body>

@@ -6,6 +6,8 @@
         </head>
        
         <link href="css/arms2.css" rel="stylesheet" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        
     <body>
         
         
@@ -14,8 +16,12 @@
         <div class="box3"><br>Walk up and down the stairs, with your hands perpendicular to your body<br>
         </div>
        <div class="box5">
-           <div id="countdown"></div>
-       </div>
+          <div id="countdown"></div>
+
+        
+      <div class="start"> Start </div>
+
+<p id="countdown"></p>
      
     <script>
       
@@ -59,7 +65,10 @@
         } // final action
     });
     
-    myCounter.start();
+     $('.start').click(function() {
+  myCounter.start();
+  $(this).hide();
+});
 
   </script>
   </body>

@@ -6,6 +6,8 @@
         </head>
        
         <link href="css/bottom3.css" rel="stylesheet" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        
     <body>
         
         
@@ -13,9 +15,7 @@
         <div class="box4">Step 3 of 4</div>
         <div class="box3"><br> Do one squat on each stair
         </div>
-          <div class="box5">
-           <div id="countdown"></div>
-       </div>
+          
        <script>
       
           function Countdown(options) {
@@ -58,7 +58,10 @@
         } // final action
     });
     
-    myCounter.start();
+     $('.start').click(function() {
+  myCounter.start();
+  $(this).hide();
+});
 
   </script>
     </body>

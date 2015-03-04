@@ -6,15 +6,23 @@
         </head>
        
         <link href="css/abs2.css" rel="stylesheet" type="text/css">
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+         
     <body>
         
         
         <div class="box2">Abs</div>
         <div class="box4">Step 2 of 4</div>
         <div class="box3"><br>Walk up and down the stairs, each time you walk up a step touch your knee to your stomach</div>
+          
           <div class="box5">
-           <div id="countdown"></div>
-       </div>
+          <div id="countdown"></div>
+
+        
+      <div class="start"> Start </div>
+
+<p id="countdown"></p>
+
        <script>
       
           function Countdown(options) {
@@ -53,11 +61,14 @@
         }, // callback for each second
         onCounterEnd: function(){ 
             //alert('counter ended!');
-             location.href = "midpagearms2.html";
+             location.href = "midpageabs2.html";
         } // final action
     });
-    
-    myCounter.start();
+
+$('.start').click(function() {
+  myCounter.start();
+  $(this).hide();
+});
 
   </script>
        
