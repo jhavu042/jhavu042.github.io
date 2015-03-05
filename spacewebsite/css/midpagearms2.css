@@ -1,4 +1,6 @@
-
+body {
+    background-color: #9933CC;
+}
 .all {
     text-align:center;
     text-decoration: none;
@@ -9,23 +11,33 @@
     color: black;
     font-size:100px;
     margin-left: 30%;
-    margin-top:15%;
+    margin-top: 5%;
     
 }
+
 .back {
     padding: 0px 30 0px 30;
     margin: 100 auto 30 auto;
+    color: white;
     /*position: absolute;*/
 }
 
+a {
+    text-decoration: none;
+    color: #CC0066;
+}
+
 a:hover{
-    color: black;
+    background-color: #CC0066;
     text-decoration: none;
     font-weight: bold;
+    letter-spacing: -10px;
+    
 }
+
 .repeat {
     padding: 0px 30 0px 30;
-
+    color: white;
     margin: 30 auto;
     /*position: absolute;*/
     
@@ -34,5 +46,6 @@ a:hover{
 .next {
     padding: 0px 30 0px 30;
     margin: 30 auto;
+    color: white;
     /*position: absolute;*/
 }
