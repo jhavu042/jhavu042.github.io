@@ -22,8 +22,9 @@ html, body {
 a { text-decoration: none; }
 
 a:hover {
-    font-weight: bold;
-    letter-spacing: -3px;
+    font-weight: bolder;
+    letter-spacing: -4px;
+    
     
 }
 
