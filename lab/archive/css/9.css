@@ -1,0 +1,50 @@
+body {
+    background-color:#606060;
+    text-decoration: none;
+    margin: none;
+    color: white;
+    font-family: baskerville, serif;
+    font-size: 50px;
+    
+}
+
+.a {
+    color: white;
+    text-decoration: none;
+}
+
+.box1 {
+    margin-top:10%;
+    margin-left:15%;
+    color: white;
+    text-decoration: none;
+}
+
+.box2 {
+    margin-top:3%;
+    margin-left: 15%;
+    color: white;
+    text-decoration: none;
+}
+
+.box3 {
+    margin-top: 3%;
+    margin-left: 15%;
+    color: white;
+    text-decoration: none;
+}
+
+.back {
+    margin-top: 5%;
+    margin-left: 15%;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+
+.home {
+    margin-left: 15%;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
