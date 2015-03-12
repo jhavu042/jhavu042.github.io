@@ -8,9 +8,13 @@ body {
     
 }
 
-.a {
-    color: white;
+a{
     text-decoration: none;
+}
+
+a:hover{
+    color: red;
+    font-weight: bold;
 }
 
 .box1 {
@@ -22,13 +26,6 @@ body {
 
 .box2 {
     margin-top:3%;
-    margin-left: 15%;
-    color: white;
-    text-decoration: none;
-}
-
-.box3 {
-    margin-top: 3%;
     margin-left: 15%;
     color: white;
     text-decoration: none;
