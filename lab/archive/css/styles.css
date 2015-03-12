@@ -7,10 +7,10 @@ body {
 
 a{
     text-decoration: none;
-    
-}
+    }
 
 a:hover{
+    color:red;
     text-decoration: none;
 }
 
