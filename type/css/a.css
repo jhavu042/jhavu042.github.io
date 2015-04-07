@@ -661,3 +661,14 @@
 	margin-top: -51px;
 	display: inline-block;
 }
+
+.period {
+    width: 8px;
+	height: 8px;
+	background: black;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	display: inline-block;
+}
+
