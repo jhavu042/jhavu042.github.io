@@ -2,11 +2,12 @@ body {
     
 }
 .number {
-    
+    display: inline-block;
+    margin: 5px 5px 5px 5px;
 }
 
 .letter {
-    display: inline block;
+    display: inline-block;
     margin: 5px 5px 5px 5px;
 }
 .a-left {
@@ -39,6 +40,9 @@ body {
     
 }
 
+.b {
+    margin-top: -40px;
+}
 .b-verticle {
     background-color: black;
     height: 50px;
@@ -80,7 +84,7 @@ body {
 	-moz-border-radius : 50px;
 	-webkit-border-radius: 15px;
 	border-radius: 100px;
-	margin-left: 20px;
+	margin-left: 10px;
 	transform: rotate(10deg);
 	display: inline-block;
 }
@@ -93,7 +97,7 @@ body {
     transform: rotate(10deg);
     -ms-transform: rotate(10deg); 
     -webkit-transform: rotate(10deg);
-    margin-left: 49px;
+    margin-left: 39px;
     margin-top: -60px;
     display: inline-block;
 }
@@ -121,7 +125,9 @@ body {
 	margin-top: -51px;
 	display: inline-block;
 }
-
+.e-all {
+    margin-left: -60px;
+}
 .e-bigline {
     margin-left: 40px;
     background-color: black;
@@ -129,7 +135,7 @@ body {
     width: 5px;
     display: inline-block;
     transform: rotate(10deg);
-    margin-top:20px;
+    margin-top: 20px;
 }
 
 .e-top {
