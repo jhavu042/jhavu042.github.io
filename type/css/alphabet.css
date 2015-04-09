@@ -6,10 +6,16 @@ body {
 
 .all {
     background-color: #00CCCC;
+}
+
+.all1 {
+    background-color: #00CCCC;
     width:510px;
     height: 500;
     margin: 0 auto;
     margin-top: 80px;
+    padding-top: 40px;
+    padding-left: 30px;
 }
 
 .block {
@@ -115,7 +121,7 @@ body {
 .c-block {
     width: 25px;
     height: 70px;
-    background: white;
+    background-color: #00CCCC;
     position: absolute;
     transform: rotate(10deg);
     -ms-transform: rotate(10deg); 
@@ -232,7 +238,7 @@ body {
 .g-block {
     width: 25px;
     height: 70px;
-    background: white;
+    background-color: #00CCCC;
     position: absolute;
     transform: rotate(10deg);
     -ms-transform: rotate(10deg); 
@@ -350,7 +356,7 @@ body {
 .j-block {
     width: 28px;
     height: 20px;
-    background: white;
+    background-color: #00CCCC;
     position: absolute;
     margin-left: 2px;
     transform: rotate(10deg);
@@ -610,7 +616,7 @@ body {
 .s-block1 {
     width: 25px;
     height: 10px;
-    background: white;
+    background-color: #00CCCC;
     position: absolute;
     margin-left: 26px;
     margin-top: -6px;
@@ -622,7 +628,7 @@ body {
 .s-block2 {
     width: 25px;
     height: 10px;
-    background: white;
+    background-color: #00CCCC;
     position: absolute;
     margin-left: 5px;
     margin-top: 0px;
@@ -685,7 +691,7 @@ body {
 .u-block {
     width: 25px;
     height: 26px;
-    background: white;
+    background-color: #00CCCC;
     position: absolute;
     margin-left: 15px;
     margin-top: -40px;
@@ -697,7 +703,7 @@ body {
 .u-block2 {
     width: 15px;
     height: 26px;
-    background: white;
+    background-color: #00CCCC;
     position: absolute;
     margin-left: -3.5px;
     margin-top: -15px;
