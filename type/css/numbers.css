@@ -1,6 +1,10 @@
 body {
     background-color: white;
 }
+
+.zero0 {
+    margin-top: -20px;
+}
 .zero1 {
     margin-top: -20px;
 }
@@ -22,6 +26,9 @@ body {
     margin: 0 15px 30px 0;
 }
 
+.one1 {
+    margin-left: -20px;
+}
 
 .one-vertical {
     margin-top: 50px;

@@ -1,6 +1,21 @@
 body {
+     margin: 0;
+     padding: 0;
     
 }
+
+.all {
+    background-color: #00CCCC;
+    width:510px;
+    height: 500;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.block {
+    background-color: #00CCCC;
+}
+
 .number {
     display: inline-block;
     margin: 5px 5px 5px 5px;
@@ -9,6 +24,10 @@ body {
 .letter {
     display: inline-block;
     margin: 5px 5px 5px 5px;
+}
+
+.a1 {
+    margin-left: 10px;
 }
 .a-left {
     margin-left: 20px;
@@ -49,8 +68,8 @@ body {
     width: 5px;
     transform: rotate(10deg);
     margin-left: 10px;
-    margin-bottom: -9px;
-    position: absolute;
+    margin-bottom: 0px;
+  
 }
 
 .b-circle {
@@ -60,7 +79,7 @@ body {
 	-moz-border-radius : 50px;
 	-webkit-border-radius: 15px;
 	border-radius: 100px;
-	margin-top: 0px;
+	margin-top: -50px;
 	margin-left: 10px;
 	position: absolute;
 }
@@ -72,9 +91,13 @@ body {
 	-moz-border-radius : 50px;
 	-webkit-border-radius: 15px;
 	border-radius: 100px;
-	margin-top: 20px;
+	margin-top: -30px;
 	margin-left: 6px;
 	position: absolute;
+}
+
+.c1 {
+    margin-left: -30px;
 }
 
 .c {
@@ -126,7 +149,7 @@ body {
 	display: inline-block;
 }
 .e-all {
-    margin-left: -60px;
+    margin-left: -50px;
 }
 .e-bigline {
     margin-left: 40px;
@@ -228,6 +251,12 @@ body {
     transform: rotate(10deg);
     margin-top: 40px;
 }
+.h-minus {
+    margin-left: -40;
+}
+.hh {
+    margin-left: 70px;
+}
 
 .h-left {
     margin-left: 15px;
@@ -256,6 +285,9 @@ body {
     margin-top: -45px;
 }
 
+.ii {
+    margin-left: 20px;
+}
 .i {
     margin-top: 30px;
     margin-left: 20px;
@@ -356,6 +388,9 @@ body {
     transform: rotate(140deg);
 }
 
+.l-leftmore {
+    margin-left: 20px;
+}
 .l-verticle {
     margin-top: 20px;
     margin-left: 20px;
@@ -373,6 +408,10 @@ body {
     transform: rotate(90deg);
     margin-left: 30px;
     margin-top: -17px;
+}
+
+.m1 {
+    margin-left: 60px;
 }
 
 .m-first {
@@ -444,7 +483,9 @@ body {
     display: inline-block;
     transform: rotate(10deg);
 }
-
+.oo {
+    margin-left: 20px;
+}
 .o {
     width: 43px;
 	height: 43px;
@@ -456,9 +497,12 @@ body {
 	position: absolute;
 	transform: rotate(10deg);
 	display: inline-block;
-	margin-top: -20px;
+	margin-top: -40px;
 }
 
+.p1 {
+    margin-left: -60px;
+}
 .p-line {
     margin-top: 70px;
     margin-left: 60px;
@@ -506,7 +550,7 @@ body {
 }
 
 .r-line {
-    margin-top: 10px;
+    margin-bottom: -50px;
     margin-left: 20px;
     background-color: black;
     height: 50px;
@@ -522,14 +566,13 @@ body {
 	-moz-border-radius : 50px;
 	-webkit-border-radius: 15px;
 	border-radius: 100px;
-	margin-top: -53px;
+	margin-bottom: -15px;
 	margin-left: 16px;
-	position: absolute;
 }
 
 .r-diagonal {
-    margin-bottom: -4px;
-    margin-left: -2px;
+    margin-bottom: -8px;
+    margin-left: 25px;
     background-color: black;
     height: 35px;
     width: 5px;
@@ -537,6 +580,9 @@ body {
     transform: rotate(150deg);
 }
 
+.s1 {
+    margin-top: -20px;
+}
 .s-top {
     margin-top: -23px;
     width: 18px;
