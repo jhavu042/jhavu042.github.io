@@ -3,9 +3,20 @@ body {
      padding: 0;
     
 }
+.all3 {
+    background-color: #00CCCC;
+    margin:0px;
+    padding-left: 400px;
+}
+.all2 {
+    background-color: #00CCCC;
+    margin:0px;
+    padding-left: 500px;
+}
 
 .all {
     background-color: #00CCCC;
+    margin:0px;
 }
 
 .all1 {
