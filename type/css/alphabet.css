@@ -1,6 +1,9 @@
 body {
     
 }
+.number {
+    
+}
 
 .letter {
     display: inline block;
@@ -53,7 +56,7 @@ body {
 	-moz-border-radius : 50px;
 	-webkit-border-radius: 15px;
 	border-radius: 100px;
-	margin-top: -43px;
+	margin-top: 0px;
 	margin-left: 10px;
 	position: absolute;
 }
@@ -65,7 +68,7 @@ body {
 	-moz-border-radius : 50px;
 	-webkit-border-radius: 15px;
 	border-radius: 100px;
-	margin-top: -20px;
+	margin-top: 20px;
 	margin-left: 6px;
 	position: absolute;
 }
