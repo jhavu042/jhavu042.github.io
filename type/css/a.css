@@ -1,3 +1,9 @@
+body {
+     margin: 0;
+     padding: 0;
+    
+}
+
 .page {
     width:1270px;
 }
@@ -8,6 +14,15 @@
 .number {
     display: inline-block;
     margin: 5px 5px 5px 5px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.all {
+    background-color: #00CCCC;
+    margin: 0px;
 }
 
 .all1 {
