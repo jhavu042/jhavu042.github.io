@@ -9,11 +9,13 @@ a:link {
 }
 
 .all3 {
-    padding-top:60px;
     background-color: #00CCCC;
-    margin:0px;
-    padding-left: 450px;
-    text-decoration: none;
+    width:510px;
+    height: 500;
+    margin: 0 auto;
+    margin-top: 80px;
+    padding-top: 40px;
+    padding-left: 90px;
 }
 .all2 {
     background-color: #00CCCC;
@@ -34,6 +36,16 @@ a:link {
     margin-top: 80px;
     padding-top: 40px;
     padding-left: 15px;
+}
+
+.all4 {
+    background-color: #00CCCC;
+    width:510px;
+    height: 1000px;
+    margin: 0 auto;
+    margin-top: 80px;
+    padding-top: 40px;
+    padding-left: 250px;
 }
 
 .block {
