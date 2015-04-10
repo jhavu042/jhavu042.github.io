@@ -157,6 +157,10 @@ body {
     -webkit-transform: rotate(10deg);
 }
 
+.four {
+    margin-left: -20px;
+}
+
 .four-diagonal {
     margin-left: 50px;
     background-color: black;
