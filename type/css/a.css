@@ -114,7 +114,7 @@
 .s-block1 {
     width: 25px;
     height: 10px;
-    background: white;
+    background-color: #00CCCC;
     position: absolute;
     margin-left: 10px;
     margin-top: -6px;
@@ -126,7 +126,7 @@
 .s-block2 {
     width: 25px;
     height: 10px;
-    background: white;
+    background-color: #00CCCC;
     position: absolute;
     margin-left: -12px;
     margin-top: 0px;
@@ -230,14 +230,17 @@
 .five-block {
     width: 15px;
     height: 30px;
-    background: white;
+    background-color: #00CCCC;
     margin-left: -3px;
     margin-top: -px;
     transform: rotate(10deg);
     -ms-transform: rotate(10deg); 
     -webkit-transform: rotate(10deg);
 }
-
+.seven {
+    margin-left: -50px;
+    margin-top: -20px;
+}
 .seven-diagonal {
     margin-top: 0px;
     margin-left: 20px;
@@ -302,7 +305,7 @@
 .two-block {
     width: 18px;
     height: 35px;
-    background: white;
+    background-color: #00CCCC;
     position: absolute;
     margin-left: 1px;
     margin-top: -45px;
@@ -314,7 +317,7 @@
 .two-blocktwo {
     width: 10px;
     height: 20px;
-    background: white;
+    background-color: #00CCCC;
     position: absolute;
     margin-left: 1px;
     margin-top: -45px;
@@ -571,7 +574,7 @@
 .j-block {
     width: 28px;
     height: 20px;
-    background: white;
+    background-color: #00CCCC;
     position: absolute;
     margin-left: 2px;
     transform: rotate(10deg);
@@ -615,7 +618,7 @@
 .u-block {
     width: 25px;
     height: 26px;
-    background: white;
+    background-color: #00CCCC;
     position: absolute;
     margin-left: 15px;
     margin-top: -40px;
@@ -627,7 +630,7 @@
 .u-block2 {
     width: 15px;
     height: 26px;
-    background: white;
+    background-color: #00CCCC;
     position: absolute;
     margin-left: -3.5px;
     margin-top: -15px;
@@ -752,7 +755,7 @@
 .c-block {
     width: 25px;
     height: 70px;
-    background: white;
+    background-color: #00CCCC;
     position: absolute;
     transform: rotate(10deg);
     -ms-transform: rotate(10deg); 
@@ -778,7 +781,7 @@
 .g-block {
     width: 25px;
     height: 70px;
-    background: white;
+    background-color: #00CCCC;
     position: absolute;
     transform: rotate(10deg);
     -ms-transform: rotate(10deg); 

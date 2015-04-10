@@ -1,16 +1,26 @@
 body {
     background-color: #00CCCC;
+    
+}
+.all {
+    text-decoration:none;
 }
 .everything {
     background-color: #00CCCC;
     margin:0 auto;
 }
+.zero2 {
+    margin-left: 20px;
+}
+
 .zero0 {
     margin-top: -20px;
 }
+
 .zero1 {
     margin-top: -20px;
 }
+
 .zero {
     width: 35px;
 	height: 39px;
@@ -330,6 +340,10 @@ body {
 	margin-left: 116px;
 	margin-top: -55px;
 	position: absolute;
+}
+
+.nine {
+    margin-left: -70px;
 }
 
 .nine-vertical {
