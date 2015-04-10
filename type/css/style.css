@@ -1,6 +1,10 @@
 body {
-    background-color: white;
+   text-decoration: none;
     
+}
+
+a:link {
+    text-decoration: none;
 }
 
 .letter {

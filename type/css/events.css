@@ -1,4 +1,7 @@
-.all {
+body {
+    text-decoration: none;
+}
+.all1 {
     text-decoration: none;
 }
 .a-left {
@@ -522,7 +525,9 @@
     display: inline-block;
     transform: rotate(150deg);
 }
-
+.s {
+    margin-top: -20px;
+}
 .s-top {
     margin-top: -23px;
     width: 18px;
