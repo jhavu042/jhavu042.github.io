@@ -31,19 +31,18 @@ a:link {
 .all1 {
     background-color: #00CCCC;
     width:510px;
-    height: 500;
+    height: 700;
     margin: 0 auto;
-    margin-top: 80px;
-    padding-top: 40px;
-    padding-left: 15px;
+    padding-top: 60px;
+    padding-left: 0px;
 }
 
 .all6 {
     width:510px;
     height: 500;
     margin: 0 auto;
-    padding-top: 40px;
-    padding-left: 15px;
+    padding-top: 70px;
+    padding-left: 0px;
 }
 
 .all4 {
