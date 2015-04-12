@@ -3,7 +3,22 @@ body {
      padding: 0;
     
 }
+.head {
+    font-family: helvetica, sans-serif;
+}
 
+.head2 {
+    font-family: helvetica, sans-serif;
+}
+
+.home{
+    font-family: helvetica, sans-serif;
+}
+a:link {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
 .page {
     width:1270px;
 }
@@ -14,10 +29,6 @@ body {
 .number {
     display: inline-block;
     margin: 5px 5px 5px 5px;
-}
-
-a:link {
-    text-decoration: none;
 }
 
 .all {
@@ -894,4 +905,39 @@ a:link {
 
 .dot {
     margin-left: 20px;
+}
+
+.footer {
+    display: inline-block;
+}
+
+.r-line1 {
+    margin-bottom: -50px;
+    margin-left: 40px;
+    background-color: black;
+    height: 50px;
+    width: 5px;
+    display: inline-block;
+    transform: rotate(10deg);   
+}
+
+.r-circle1 {
+    width: 22px;
+	height: 22px;
+	border: solid black 5px;
+	-moz-border-radius : 50px;
+	-webkit-border-radius: 15px;
+	border-radius: 100px;
+	margin-bottom: -15px;
+	margin-left: 36px;
+}
+
+.r-diagonal1 {
+    margin-bottom: -8px;
+    margin-left: 45px;
+    background-color: black;
+    height: 35px;
+    width: 5px;
+    display: inline-block;
+    transform: rotate(150deg);
 }

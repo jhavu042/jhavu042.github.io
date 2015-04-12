@@ -4,8 +4,21 @@ body {
     
 }
 
+.head {
+    font-family: helvetica, sans-serif;
+}
+
+.head2 {
+    font-family: helvetica, sans-serif;
+}
+
+.home{
+    font-family: helvetica, sans-serif;
+}
 a:link {
     text-decoration: none;
+    color: black;
+    font-weight: bold;
 }
 
 .all3 {
@@ -31,8 +44,9 @@ a:link {
 .all1 {
     background-color: #00CCCC;
     width:510px;
-    height: 700;
-    margin: 0 auto;
+    height: 500;
+    margin-top:100px;
+    margin-left: auto;
     padding-top: 60px;
     padding-left: 0px;
 }
@@ -149,7 +163,10 @@ a:link {
 	margin-left: 6px;
 	position: absolute;
 }
-
+.c2 {
+    margin-left: 30px;
+    
+}
 .c1 {
     margin-left: -30px;
 }
@@ -348,7 +365,7 @@ a:link {
 }
 
 .ii {
-    margin-left: 20px;
+    margin-left: 30px;
 }
 .i {
     margin-top: 30px;
@@ -731,7 +748,9 @@ a:link {
     -ms-transform: rotate(30deg); 
     -webkit-transform: rotate(30deg);
 }
-
+.t {
+    margin-left: -20px;
+}
 .t-vertical {
     margin-left: 45px;
     background-color: black;
@@ -829,7 +848,9 @@ a:link {
     display: inline-block;
     transform: rotate(38deg);
 }
-
+.w {
+    margin-left: 40px;
+}
 .w-one {
     margin-top: 0px;
     margin-left: 20px;
@@ -889,7 +910,9 @@ a:link {
     display: inline-block;
     transform: rotate(160deg);
 }
-
+.y {
+    margin-left: 40px;
+}
 .y-right {
     margin-top: 5px;
     margin-left:0px;
@@ -936,4 +959,8 @@ a:link {
     transform: rotate(90deg);
     margin-left: 17px;
     margin-top: -22px;
+}
+
+.footer {
+    display: inline-block;
 }
