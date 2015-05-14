@@ -1,25 +1,83 @@
-<html>
-    
+<html>    
     <head>
+       <script src="jquery-1.8.2.min.js" type="text/javascript"></script>
         <title>Ask Me</title>
-        
-        </head>
-       
         <link href="style.css" rel="stylesheet" type="text/css">
-    
-    
-    <body>
-        <input 
-    type="button" 
-    value="Change background"
-    onclick="document.body.style.backgroundColor = '#' + Math.random().toString(16).slice(2, 8);"
->
-        <div class="ask">
-            Ask me Anything.
-        </div>
-        <div class="circle">
-            Answer
-        </div>
+		<script type="text/javascript">
+         $(window).load(function() {  
+		 //alert('hello');
+           //document.getElementById('fullscreen-overlay').src = 'images/image1.gif';
+        });
+		function getRandomInt(min, max) {
+			return Math.floor(Math.random() * (max - min + 1)) + min;
+		}
+		
+		function changeimage(num,textnum){
+	       var randomnum = parseInt(getRandomInt(1,30));
+		   var image = $('#slideit');
+		   
+			   
+			   var images = ['images/image1.gif','images/image2.gif','images/image3.gif','images/image4.gif','images/image5.gif','images/image6.gif','images/image7.gif','images/image8.gif','images/image9.gif','images/image10.gif','images/image11.gif','images/image12.gif','images/image13.gif','images/image14.gif','images/image15.gif','images/image16.gif','images/image17.gif','images/image18.gif','images/image19.gif','images/image20.gif','images/image21.gif','images/image22.gif','images/image23.gif','images/image24.gif','images/image25.gif','images/image26.gif','images/image27.gif','images/image28.gif','images/image29.gif','images/image30.gif','images/image31.gif','images/image32.gif','images/image33.gif','images/image34.gif','images/image35.gif','images/image36.gif','images/image37.gif','images/image38.gif','images/image39.gif','images/image40.gif','images/image41.gif','images/image42.gif','images/image43.gif','images/image44.gif','images/image45.gif'];
+			   
+			
+			   if(num >= 45){
+			   		num = 0;
+		   	   }
+			   document.getElementById('fullscreen-overlay').src = images[num];
+			   //image.css('background-image', 'url(' + images [num] +')');
+			  // image.css('background-repeat', 'no-repeat');
+			   //alert(num);
+			   ran = +num + 1;
+			   document.getElementById('current').value = ran;
+		   
+		  // bgDisco();		   
+		}
+		
+		
+		function bgDisco()
+		{
+			var  x =Math.round(255*Math.random());
+			
+			var num1 =getHex(x);
+			
+			var  y =Math.round(255*Math.random());
+			
+			var num2 =getHex(y);
+			
+			var  z =Math.round(255*Math.random());
+			
+			var num3 =getHex(z);
+			
+			document.body.style.background="#"+num1+num2+num3;
+		}
+		 
+		/* Method To Convert  Decimal To Hexadecimal */
+		
+		function getHex(dec)
+		{ 
+			var hexArray = new Array( "0", "1", "2", "3","4", "5", "6", "7","8", "9", "A", "B","C", "D", "E", "F" );
+			 
+			var code1 = Math.floor(dec / 16);
+			 
+			var code2 = dec - code1 * 16;
+			 
+			var decToHex = hexArray[code2];
+			 
+			return (decToHex);
+		} 
+    </script>
+    </head>
+       
+ 
+    <body bgcolor="#FF99CC">
         
+            
+       <img id="fullscreen-overlay" src="" style="cursor: pointer; overflow: hidden; height: 667px; width: 1366px; margin-left: 0px;">
+	   <div class="ask">Ask me Anything.</div>   
+       <div class="circle"  onClick="changeimage(document.getElementById('current').value);">
+            <center style="padding-top: 50px;"><span>Answer<br>Me</span></center>
+        </div>
+        <input name="current" id="current" type="hidden" value="0"> 
     </body>
+   
 </html>

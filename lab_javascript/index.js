@@ -32,7 +32,7 @@ function getRandomNumber() {
 }
 
 $('button').click(function () {
-    updateRandomImages();
+    updateRandomImages(); 
 });
 
 //start off with some random images
@@ -47,7 +47,7 @@ var selectedpoem = false;
  
 $(".go-button").click(function() {
   var nextpoem = poems[Math.floor(Math.random()*poems.length)];
-  
+
   while (selectedpoem == nextpoem) {
     nextpoem = poems[Math.floor(Math.random()*poems.length)];
   }
